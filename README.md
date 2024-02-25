@@ -19,9 +19,7 @@ pip install -r requirements/prod.txt
 3. Run
 
 ```bash
-cd src
-export $(cat ../.env.dev)
-sh run.sh
+bash run_dev.sh
 ```
 
 server will run on 127.0.0.1:8000
